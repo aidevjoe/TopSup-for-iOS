@@ -38,4 +38,10 @@ os.system("screencapture -R\"20,190,310,100\" ./question_screenshot.png")
 
 
 #### 三、参考[原脚本说明](https://github.com/Skyexu/TopSup) 配置/安装 ocr 及相应库即可
-修改 **getQuestionAnswer.py** 文件中的坐标值。可以将 QuickTime 的窗口缩小再测量。 参考[原脚本说明](https://github.com/Skyexu/TopSup) 配置/安装 ocr 及相应库即可
+参考[原脚本说明](https://github.com/Skyexu/TopSup) 配置/安装 ocr 及相应库。
+
+参考 **getQuestionAnswer.py** 删除 WDA 相关代码，修改自己的坐标值，建议将 QuickTime 的窗口缩小再测量。
+
+
+
+⚠️ 此 Demo 不会保持与原仓库的更新，仅供参考思路
