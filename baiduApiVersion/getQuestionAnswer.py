@@ -18,8 +18,8 @@ import os
 # c = wda.Client()
 
 # 百度OCR API ，在 https://cloud.baidu.com/product/ocr 上注册新建应用即可
-api_key = 'TIOmh950EUreugo3yfiFgUAD'
-api_secret = 'bxGa5PRFj536csUnO9FhACxUorRgqxcA'
+api_key = ''
+api_secret = ''
 
 
 
@@ -56,7 +56,7 @@ file = open("./screenshot.png", 'rb')
 # image_data = img.getvalue()
 base64_data = base64.b64encode(file.read())
 r = requests.post('https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic',
-              params={'access_token': "24.fd81bc83e457a246c8c33799ef146256.2592000.1518326074.282335-10447133"}, data={'image': base64_data})
+              params={'access_token': ""}, data={'image': base64_data})
 result = ''
 
 print(r.json())
